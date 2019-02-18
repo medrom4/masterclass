@@ -121,10 +121,18 @@ add_action( 'widgets_init', 'masterclass_widgets_init' );
  */
 function masterclass_scripts() {
 	wp_enqueue_style( 'masterclass-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'masterclass-bootstrap.min', get_template_directory_uri() . 'assets/css/bootstrap.min.css' );
+	wp_enqueue_style( 'masterclass-ionicons.min', get_template_directory_uri() . 'assets/css/ionicons.min.css' );
 
-	wp_enqueue_script( 'masterclass-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'masterclass-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-modernizr', get_template_directory_uri() . 'assets/js/modernizr.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-menu', get_template_directory_uri() . 'assets/js/menu.js', array(), '20151215', true );
+	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'masterclass-isotope.pkgd.min', get_template_directory_uri() . 'assets/js/isotope.pkgd.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-google-analytics', get_template_directory_uri() . 'assets/js/google-analytics.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-custom', get_template_directory_uri() . 'assets/js/custom.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-bootstrap.min', get_template_directory_uri() . 'assets/js/bootstrap.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-animated-headline', get_template_directory_uri() . 'assets/js/animated-headline.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-analytics', get_template_directory_uri() . 'assets/js/analytics.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

@@ -20,7 +20,57 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="overflow: visible;">
+
+	<!-- Preloader -->
+	<div id="preloader" style="display: none;">
+		<div class="pre-container">
+			<div class="spinner">
+				<div class="double-bounce1"></div>
+				<div class="double-bounce2"></div>
+			</div>
+		</div>
+	</div>
+	<!-- end Preloader -->
+
+
+
+	<div class="container-fluid">
+
+		<!-- box header -->
+		<header class="box-header">
+			<div class="box-logo">
+				<a href="https://medrom4.github.io/notorious/index.html"><img src="jpg/notorious_2.png" width="80" alt="Logo"></a>
+			</div>
+			<!-- box-nav -->
+			<a class="box-primary-nav-trigger" href="#">
+                <span class="box-menu-text">Меню</span><span class="box-menu-icon"></span>
+            </a>
+			<!-- box-primary-nav-trigger -->
+		</header>
+		<!-- end box header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'masterclass' ); ?></a>
 
