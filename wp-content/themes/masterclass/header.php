@@ -40,7 +40,7 @@
 		<!-- box header -->
 		<header class="box-header">
 			<div class="box-logo">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo("template_url"); ?>/assets/jpg/notorious_logo.png"></a>
 			</div>
 			<!-- box-nav -->
 			<a class="box-primary-nav-trigger" href="#">
@@ -57,10 +57,17 @@
 			<ul class="box-primary-nav">
 				<li class="box-label">Notorious</li>
 
-				<li><a href="https://medrom4.github.io/notorious/index.html">Главная</a><i class="ion-ios-circle-filled color"></i></li>
-				<li><a href="https://medrom4.github.io/notorious/data/about.html">Обо мне</a></li>
-				<li><a href="https://medrom4.github.io/notorious/data/portfolio.html">Картины</a></li>
-				<li><a href="https://medrom4.github.io/notorious/data/contact.html">Контакты</a></li>
+				<!--<li><a href="https://medrom4.github.io/notorious/index.html">Главная</a><i class="ion-ios-circle-filled color"></i></li>-->
+				<!--<li><a href="https://medrom4.github.io/notorious/data/about.html">Обо мне</a></li>-->
+				<!--<li><a href="https://medrom4.github.io/notorious/data/portfolio.html">Картины</a></li>-->
+				<!--<li><a href="https://medrom4.github.io/notorious/data/contact.html">Контакты</a></li>-->
+				
+				<?php
+					wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					) );
+				?>
 
 
 				<li class="box-label">Follow me</li>
