@@ -120,25 +120,28 @@ add_action( 'widgets_init', 'masterclass_widgets_init' );
  * Enqueue scripts and styles.
  */
 function masterclass_scripts() {
+	
 	wp_enqueue_style( 'masterclass-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'masterclass-bootstrap.min', get_template_directory_uri() . 'assets/css/bootstrap.min.css' );
-	wp_enqueue_style( 'masterclass-ionicons.min', get_template_directory_uri() . 'assets/css/ionicons.min.css' );
-
-	wp_enqueue_script( 'masterclass-modernizr', get_template_directory_uri() . 'assets/js/modernizr.js', array(), '20151215', true );
-	wp_enqueue_script( 'masterclass-menu', get_template_directory_uri() . 'assets/js/menu.js', array(), '20151215', true );
+	wp_enqueue_style( 'masterclass-bootstrap-min', get_template_directory_uri() . '/assets/css/bootstrap-min.css' );
+	wp_enqueue_style( 'masterclass-ionicons-min', get_template_directory_uri() . '/assets/css/ionicons-min.css' );
+	wp_enqueue_style( 'masterclass-general', get_template_directory_uri() . '/assets/css/general.css' );	
+	
+	wp_enqueue_script( 'masterclass-modernizr', get_template_directory_uri() . '/assets/js/modernizr.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-menu', get_template_directory_uri() . '/assets/js/menu.js', array(), '20151215', true );
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'masterclass-isotope.pkgd.min', get_template_directory_uri() . 'assets/js/isotope.pkgd.min.js', array(), '20151215', true );
-	wp_enqueue_script( 'masterclass-google-analytics', get_template_directory_uri() . 'assets/js/google-analytics.js', array(), '20151215', true );
-	wp_enqueue_script( 'masterclass-custom', get_template_directory_uri() . 'assets/js/custom.js', array(), '20151215', true );
-	wp_enqueue_script( 'masterclass-bootstrap.min', get_template_directory_uri() . 'assets/js/bootstrap.min.js', array(), '20151215', true );
-	wp_enqueue_script( 'masterclass-animated-headline', get_template_directory_uri() . 'assets/js/animated-headline.js', array(), '20151215', true );
-	wp_enqueue_script( 'masterclass-analytics', get_template_directory_uri() . 'assets/js/analytics.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-isotope.pkgd.min', get_template_directory_uri() . '/assets/js/isotope.pkgd.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-google-analytics', get_template_directory_uri() . '/assets/js/google-analytics.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-custom', get_template_directory_uri() . '/assets/js/custom.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-bootstrap.min', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-animated-headline', get_template_directory_uri() . '/assets/js/animated-headline.js', array(), '20151215', true );
+	wp_enqueue_script( 'masterclass-analytics', get_template_directory_uri() . '/assets/js/analytics.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'masterclass_scripts' );
+
 
 /**
  * Implement the Custom Header feature.

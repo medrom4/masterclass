@@ -33,14 +33,14 @@
 	</div>
 	<!-- end Preloader -->
 
-
+<!--<img src="jpg/notorious_2.png" width="80" alt="Logo">-->
 
 	<div class="container-fluid">
 
 		<!-- box header -->
 		<header class="box-header">
 			<div class="box-logo">
-				<a href="https://medrom4.github.io/notorious/index.html"><img src="jpg/notorious_2.png" width="80" alt="Logo"></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 			</div>
 			<!-- box-nav -->
 			<a class="box-primary-nav-trigger" href="#">
@@ -52,57 +52,46 @@
 
 
 
+		<!-- nav -->
+		<nav>
+			<ul class="box-primary-nav">
+				<li class="box-label">Notorious</li>
+
+				<li><a href="https://medrom4.github.io/notorious/index.html">Главная</a><i class="ion-ios-circle-filled color"></i></li>
+				<li><a href="https://medrom4.github.io/notorious/data/about.html">Обо мне</a></li>
+				<li><a href="https://medrom4.github.io/notorious/data/portfolio.html">Картины</a></li>
+				<li><a href="https://medrom4.github.io/notorious/data/contact.html">Контакты</a></li>
+
+
+				<li class="box-label">Follow me</li>
+
+				<li class="box-social"><a href="#"><i class="icon ion-logo-facebook"></i></a></li>
+                <li class="box-social"><a href="#"><i class="icon ion-logo-instagram"></i></a></li>
+                <li class="box-social"><a href="#"><i class="icon ion-logo-twitter"></i></a></li>
+			</ul>
+		</nav>
+		<!-- end nav -->
+
+
+		<!-- box-intro -->
+		<section class="box-intro">
+			<div class="table-cell">
+				<h1 class="box-headline letters rotate-2">
+					<span class="box-words-wrapper" style="width: 636px;">
+                        <b class="is-visible" style="opacity: 1;"><i class="out"><em>с</em></i><i class="out"><em>о</em></i><i class="out"><em>ф</em></i><i class="out"><em>и</em></i><i class="out"><em>я</em></i><i class="out"><em>.</em></i></b>
+                        <b style="opacity: 1;"><i class="out"><em>&nbsp;</em></i><i class="out"><em>р</em></i><i class="out"><em>о</em></i><i class="out"><em>м</em></i><i class="out"><em>a</em></i><i class="out"><em>н</em></i><i class="out"><em>o</em></i><i class="out"><em>в</em></i><i class="out"><em>и</em></i><i class="out"><em>ч</em></i><i class="out"><em>.</em></i></b>
+                        <b style="opacity: 1;"><i class="in"><em>х</em></i><i class="in"><em>у</em></i><i class="in"><em>д</em></i><i class="in"><em>о</em></i><i class="in"><em>ж</em></i><i class="in"><em>н</em></i><i class="in"><em>и</em></i><i class="in"><em>к</em></i><i class="in"><em>.</em></i></b>
+                    </span>
+				</h1>
+				<h5>Если вы хотите получить художественный оргазм, смотря на картины - спускайтесь ниже ...</h5>
+			</div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'masterclass' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$masterclass_description = get_bloginfo( 'description', 'display' );
-			if ( $masterclass_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $masterclass_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'masterclass' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+			<div class="mouse">
+				<div class="scroll"></div>
+			</div>
+		</section>
+		<!-- end box-intro -->
+	</div>
