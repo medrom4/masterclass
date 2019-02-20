@@ -8,7 +8,7 @@
 <?php get_header(); ?>
  
  
- 
+  
  
  	<!-- portfolio div -->
 	<div class="portfolio-div">
