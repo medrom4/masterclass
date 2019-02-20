@@ -170,3 +170,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+
+require get_template_directory() . '/inc/options-panel.php';

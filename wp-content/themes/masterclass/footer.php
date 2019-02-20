@@ -11,24 +11,42 @@
 
 ?>
 
-	</div><!-- #content -->
+	<!-- footer -->
+	<footer>
+		<div class="container-fluid">
+			<p class="copyright">&copy; Все права защищены.</p>
+		</div>
+	</footer>
+	<!-- end footer -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'masterclass' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'masterclass' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'masterclass' ), 'masterclass', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+
+	<!-- back to top -->
+	<a href="https://medrom4.github.io/notorious/index.html" class="cd-top"><i class="icon ion-md-arrow-round-up"></i></a>
+	<!-- end back to top -->
+
+
+
+
+	<!-- скрипты -->
+
+	<!-- jQuery -->
+	<script src="script/jquery-2.1.1.js"></script>
+
+	<!--  plugins -->
+	<script src="script/bootstrap.min.js"></script>
+	<script src="script/menu.js"></script>
+	<script src="script/animated-headline.js"></script>
+	<script src="script/isotope.pkgd.min.js"></script>
+
+	<!--  custom script -->
+	<script src="script/custom.js"></script>
+
+	<!-- google analytics  -->
+	<script src="script/google-analytics.js"></script>
+
+</body>
+
+</html>
 
 <?php wp_footer(); ?>
 

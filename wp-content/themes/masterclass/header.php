@@ -79,7 +79,9 @@
 		</nav>
 		<!-- end nav -->
 
-
+		
+		<?php global $redux_demo; ?>
+		
 		<!-- box-intro -->
 		<section class="box-intro">
 			<div class="table-cell">
@@ -90,7 +92,11 @@
                         <b style="opacity: 1;"><i class="in"><em>х</em></i><i class="in"><em>у</em></i><i class="in"><em>д</em></i><i class="in"><em>о</em></i><i class="in"><em>ж</em></i><i class="in"><em>н</em></i><i class="in"><em>и</em></i><i class="in"><em>к</em></i><i class="in"><em>.</em></i></b>
                     </span>
 				</h1>
-				<h5>Если вы хотите получить художественный оргазм, смотря на картины - спускайтесь ниже ...</h5>
+				
+				
+				<h5><?php echo $redux_demo['text-header'] ?></h5>
+				
+				
 			</div>
 
 
