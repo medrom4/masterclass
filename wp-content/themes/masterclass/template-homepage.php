@@ -17,7 +17,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6  fashion logo" style="position: absolute; left: 0px; top: 0px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-one.html" class="portfolio_item">					    
+					<a href="#" class="portfolio_item">					    
                         <img src="<?php bloginfo("template_url"); ?>/assets/jpg/01.jpg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -33,7 +33,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6 ads graphics" style="position: absolute; left: 475px; top: 0px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-two.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/03.jpeg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -49,7 +49,7 @@
 
 				<!-- single work -->
 				<div class="col-md-6 col-sm-12 photography" style="position: absolute; left: 951px; top: 0px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-three.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/02.jpg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -65,7 +65,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6 fashion ads" style="position: absolute; left: 0px; top: 475px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-four.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/04.jpg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -81,7 +81,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6 graphics ads" style="position: absolute; left: 475px; top: 475px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-five.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/05.jpeg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -97,7 +97,7 @@
 
 				<!-- single work -->
 				<div class="col-md-6 col-sm-12 photography" style="position: absolute; left: 0px; top: 951px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-six.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/10.jpg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -113,7 +113,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6 graphics ads" style="position: absolute; left: 951px; top: 951px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-seven.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/06.jpeg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -129,7 +129,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6 graphics ads" style="position: absolute; left: 1427px; top: 951px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-eight.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/07.jpeg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -145,7 +145,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6 graphics ads" style="position: absolute; left: 951px; top: 1427px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-nine.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/08.jpeg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -161,7 +161,7 @@
 
 				<!-- single work -->
 				<div class="col-md-3 col-sm-6 graphics ads" style="position: absolute; left: 1427px; top: 1427px;">
-					<a href="https://medrom4.github.io/notorious/data/portfolio-ten.html" class="portfolio_item">
+					<a href="#" class="portfolio_item">
                         <img src="jpg/09.jpeg" alt="image" class="img-responsive">
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
