@@ -46,7 +46,8 @@ if ( ! function_exists( 'masterclass_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'masterclass' ),
 		) );
-
+		
+		add_theme_support( 'post-thumbnails', array( 'post' ) );
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
